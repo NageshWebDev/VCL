@@ -1,0 +1,49 @@
+.fsMain{
+    width: 90vw;
+    height: 60vh;
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fsDiv{
+    width: 50%;
+    height: 75%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    animation: zoom .75s linear 1;
+    border: 15px solid black;
+}
+
+.fsH2{
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    word-spacing: 20px;
+    animation: borderAnimation 0.25s linear infinite alternate;
+    padding-bottom: 15px;
+}
+
+.fsH2>i{
+    animation: swing 0.25s linear infinite alternate;
+}
+
+@keyframes borderAnimation {
+    0% {border-bottom: 5px solid orange;}
+    100% {border-bottom: 5px solid yellowgreen;}
+}
+
+@keyframes swing {
+    0% {transform:  rotate(-20deg); color: yellowgreen;}
+    100% {transform: rotate(10deg) scale(1.5); color: orange;}
+}
+
+@keyframes zoom {
+    0% {transform:  scale(0); background-color: rgba(0,0,0,0.5); }
+    100% {transform: scale(1); }
+}

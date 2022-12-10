@@ -1,0 +1,134 @@
+.stuLoginmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.stuLoginh1{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Germania One', cursive;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.stuLoginform{
+    width: 600px;
+    height: 325px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: center;
+    border-radius: 50px;
+    border: 5px solid transparent;
+}
+
+.stuLoginform:hover{
+    background-color: rgba(0,0,0,0.6);    
+    border: 5px solid black;
+}
+
+.stuLoginformAnimation{
+    width: 40vw;
+    height: 70vh;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    border: 5px solid transparent;
+    border: 10px solid black;
+}
+
+.stuLoginform:hover{
+    cursor: pointer;
+}
+
+.stuLoginImg{
+    height: 300px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.stuLoginImgBB{
+    height: 300px;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.stuLogindiv{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stuLoginlabel{
+    font-family: 'Germania One', cursive;
+    font-size:xx-large;
+}
+
+.stuLoginInput[type = "submit"]{
+    width: 50%;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size:xx-large;
+    transition:all 0.2s ease-in-out;
+    letter-spacing: 2.5px;
+    font-family: 'Germania One', cursive;
+
+}
+
+.stuLoginInput[type = "number"]{
+    font-size: xx-large;
+    width: 150px;
+    font-family: 'Germania One', cursive;
+    padding-left: 50px;
+}
+
+.stuLoginInput[type = "submit"]:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+.stuLoginInput[type = "submit"]:active{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+@media screen and (max-width : 2500px) {
+    .stuLoginh1 {
+        font-size: 3.5rem;
+        letter-spacing: 0.25rem;
+        padding: 10px 0;
+    }
+
+}
+
+@media screen and (max-width : 1000px) {
+    .stuLoginh1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.25rem;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .stuLoginh1 {
+        font-size: 1.5rem;
+        letter-spacing: 0.25rem;
+        padding: 30px 0;
+    }
+}

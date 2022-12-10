@@ -1,0 +1,31 @@
+.headerText {
+    margin: 0;
+    text-align: center;
+    font-family: 'Germania One', cursive;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+}
+
+@media screen and (max-width : 2500px) {
+    .headerText {
+        font-size: 3.5rem;
+        letter-spacing: 0.25rem;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .headerText {
+        font-size: 2.5rem;
+        letter-spacing: 0.25rem;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .headerText {
+        font-size: 1.5rem;
+        letter-spacing: 0.25rem;
+        padding: 30px 0;
+    }
+}
