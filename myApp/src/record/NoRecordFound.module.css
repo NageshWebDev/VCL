@@ -1,0 +1,19 @@
+.noRecordFoundH1{
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Germania One', cursive;
+    color: white;
+    background-color: rgba(0,0,0,0.85);
+    border: 10px solid black;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+    animation: zoom 0.75s linear infinite alternate;
+}
+
+@keyframes zoom {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.25); border-color: tomato; background-color: rgba(0,0,0,9);;}
+}

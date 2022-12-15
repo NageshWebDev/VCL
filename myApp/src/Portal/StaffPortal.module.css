@@ -1,0 +1,77 @@
+.staPortalmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;}
+
+.staPortalh1{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Germania One', cursive;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.staPortalbtn{
+    font-size: x-large;
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size:xx-large;
+    border: 5px solid;
+    transition:all 0.25s ease-in-out;
+    letter-spacing: 2.5px;
+}
+
+.staPortalbtn:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border: 5px solid black;
+}
+
+.staPortalbtn:active{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    border: 5px solid black;
+}
+
+.staPortalbtnBlack{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    border: 5px solid black;
+}
+
+@media screen and (max-width : 2500px) {
+    .staPortalh1 {
+        font-size: 3.5rem;
+        letter-spacing: 0.25rem;
+        padding: 10px 0;
+    }
+
+}
+
+@media screen and (max-width : 1000px) {
+    .staPortalh1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.25rem;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .staPortalh1 {
+        font-size: 1.5rem;
+        letter-spacing: 0.25rem;
+        padding: 30px 0;
+    }
+}
